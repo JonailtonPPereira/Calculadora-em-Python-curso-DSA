@@ -41,5 +41,3 @@ while chose != " ": #Alterar esse valor de 0 para que faça sentido para operaç
     elif chose == 0:
         print("Operação finalizada com sucesso")
         exit(1)
-
-    chose = int(input("Selecione o número da operação desejada 1.Soma/2.Subtração/3.Multiplicação/4.Divisão/0.Finalizar: "))
