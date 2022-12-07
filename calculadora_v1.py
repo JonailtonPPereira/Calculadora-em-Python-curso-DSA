@@ -7,7 +7,8 @@
 print("\n******************* Python Calculator *******************")
 
 chose = 0
-while chose != " ": #Alterar esse valor de 0 para que faça sentido para operação
+while chose != " ":
+   
     chose = int(input("Selecione o número da operação desejada 1.Soma/2.Subtração/3.Multiplicação/4.Divisão/0.Finalizar: "))
 
     if chose == 1:
